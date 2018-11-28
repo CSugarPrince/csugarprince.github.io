@@ -104,8 +104,8 @@ analytics:
 # Site Author
 author:
   name             : "Joshua Hew"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Just a simple undergrad trying to make his way into a data science."
+  avatar           : "/images/bio-pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Just a simple undergrad trying to make his way into data science."
   location         : "Gainesville, FL"
   email            : "joshuabinx@gmail.com"
   links:
