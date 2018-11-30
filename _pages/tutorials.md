@@ -1,7 +1,7 @@
 ---
-title: "Exercises"
+title: "Tutorials"
 layout: posts
-permalink: /exercises/
+permalink: /tutorials/
 author_profile: true
 header:
   image: "/images/gattsu.jpg"
