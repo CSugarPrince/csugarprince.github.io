@@ -1,6 +1,6 @@
 ---
 title: "Past Projects by Tags"
-layout: archive
+layout: posts #archive
 permalink: /projects/
 author_profile: true
 header:
