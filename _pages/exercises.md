@@ -4,5 +4,5 @@ layout: exercises
 permalink: /exercises/
 author_profile: true
 header:
-  image: "/images/gattsu.jpg"
+  image: "/images/exercises/rp-pandas.jpg"
 ---

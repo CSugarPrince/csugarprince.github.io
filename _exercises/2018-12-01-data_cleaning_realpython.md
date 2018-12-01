@@ -3,7 +3,7 @@ title: "Data Cleaning (RealPython)"
 date: 2018-12-01
 tags: [data science, data cleaning, pandas, python]
 header:
-  image: "/images/sample-project/lootbox.jpg"
+  image: "/images/exercises/rp-pandas.jpg"
 excerpt: "Data Science, Data Cleaning, Pandas, Python"
 ---
 
