@@ -1,6 +1,6 @@
 ---
 title: "Exercises"
-layout: posts
+layout: exercises
 permalink: /exercises/
 author_profile: true
 header:
