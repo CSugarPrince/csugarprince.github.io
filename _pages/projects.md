@@ -1,8 +1,8 @@
 ---
-title: "Past Projects by Tags"
+title: "Past Projects and Exercises"
 layout: posts #archive
 permalink: /projects/
 author_profile: true
 header:
-  image: "/images/gattsu.jpg"
+  image: "/images/pandas.jpg"
 ---
