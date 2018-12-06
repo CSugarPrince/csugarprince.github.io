@@ -7,7 +7,6 @@ header:
 excerpt: "QGIS, Data Cleaning, Pandas, Jupyter Notebook"
 ---
 
-# Geocoding Addresses of UF Buildings
 
 *In the original list of buildings on UF can be found [here](https://registrar.ufl.edu/soc/building.htm). Disclaimer: Even though this comes from the official UF website, I found that many buildings were not listed and some that were not listed were not actual buildings on UF.*
 
