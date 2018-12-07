@@ -8,9 +8,9 @@ excerpt: "QGIS, Data Cleaning, Pandas, Jupyter Notebook"
 ---
 
 
-*In the original list of buildings on UF can be found [here](https://registrar.ufl.edu/soc/building.htm). Disclaimer: Even though this comes from the official UF website, I found that many buildings were not listed and some that were not listed were not actual buildings on UF.*
+*The original list of buildings on UF can be found [here](https://registrar.ufl.edu/soc/building.htm). Disclaimer: Although this comes from the official UF website, I found that there are many buildings missing from the list and that will have to be added manually.*
 
-For this exercise, I decided to follow along a tutorial on Geocoding addresses using the Open Source QGIS GIS-Mapping software. To make it more interesting, I decided to follow the tutorial using a list of buildings on the UF Campus instead of copying what they did and mapping out an extensive list of Fortune 1000 companies in the United States.
+For this exercise, I decided to follow along this [tutorial](https://www.gislounge.com/how-to-geocode-addresses-using-qgis/) on geocoding addresses using the Open Source QGIS GIS-Mapping software. To make it more interesting, I decided to follow the tutorial using a list of buildings on the UF Campus instead of copying what they did and mapping out an extensive list of Fortune 1000 companies in the United States.
 
 In addition to simply mapping addresses, I had to first do some data cleaning on the list of addresses I found because they had to be in a specific format in order to be mapped on QGIS. I used Python, Jupyter Notebook, and Pandas for the data cleaning and the notebook will be included below. In the end I had to fill in a lot of addresses manually due to the inconsistent nature of both the given csv and google search results.
 
@@ -20,7 +20,6 @@ In addition to simply mapping addresses, I had to first do some data cleaning on
 ```python
 import pandas as pd
 import numpy as np
-
 ```
 
 
@@ -546,7 +545,7 @@ new_df.to_csv("uf-directory-of-listings.csv")
 
 *Note: I still had to edit the .csv file in excel and manually fill in address information. In addition to that: there were some issues with the csv:*
 + *",,," appeared randomly throughout the csv*
-+ *some of the buildings had commas in them. Not good*
++ *some of the building names had commas in them. Not good*
 + *the csv has to be saved with utf-8 encoding or else it will not work with QGIS*
 
 The mapping is pretty straightforward, here are the results:
